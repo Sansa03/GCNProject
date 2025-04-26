@@ -1,0 +1,217 @@
+@prefix ns1: <http://example.org/relationship#> .
+@prefix ns2: <http://example.org/agriculture#> .
+
+ns2:AgriTech_Startup ns1:partners_with ns2:Govt_Agencies .
+
+ns2:Bajra ns1:has_production [ ] .
+
+ns2:Barley ns1:has_production [ ] ;
+    ns1:thrives_with ns2:Compost .
+
+ns2:Carbon_Farming ns1:reduces ns2:Greenhouse_Emissions .
+
+ns2:Castorseed ns1:has_production [ ] .
+
+ns2:Cereals ns1:has_production ns2:3078.96_MT .
+
+ns2:Clay_Soil ns1:improves ns2:Water_Retention ;
+    ns1:retains ns2:Moisture .
+
+ns2:Consumers ns1:demand ns2:Organic_Products .
+
+ns2:Cotton ns1:produced_in ns2:Total .
+
+ns2:Crop_Insurance ns1:protects ns2:Farmers_from_Loss ;
+    ns1:protects_against ns2:Weather_Losses .
+
+ns2:Crop_Rotation ns1:improves ns2:Soil_Fertility .
+
+ns2:Distributor ns1:delivers ns2:Agri_Products .
+
+ns2:Drone ns1:monitors ns2:Field_Health,
+        ns2:Weather_Conditions .
+
+ns2:Exporters ns1:negotiate_with ns2:Trade_Agents .
+
+ns2:Farm_Analytics ns1:optimizes ns2:Yield_Production .
+
+ns2:Farm_Loan ns1:funds ns2:Equipment_Purchase,
+        ns2:Farm_Expansion .
+
+ns2:Farming_Cooperatives ns1:collaborate_with ns2:AgriTech_Startups .
+
+ns2:Fertilizer ns1:boosts ns2:Crop_Yield .
+
+ns2:Flood ns1:damages ns2:Irrigation_Channels,
+        ns2:Irrigation_Systems .
+
+ns2:Govt_Grant ns1:promotes ns2:Agri_Research .
+
+ns2:Govt_Subsidy ns1:benefits ns2:Small_Holders .
+
+ns2:Gram ns1:has_production [ ] ;
+    ns1:produced_in ns2:Rabi .
+
+ns2:Greenhouse ns1:protects ns2:Young_Crops .
+
+ns2:Groundnut ns1:has_production [ ns2:production "8.87" ],
+        ns2:113.12_MT,
+        ns2:8.87_MT .
+
+ns2:High_Humidity ns1:promotes ns2:Fungal_Infections .
+
+ns2:Hydroponics ns1:grows ns2:Plants_Without_Soil .
+
+ns2:Jowar ns1:has_production [ ns2:season "Rabi" ],
+        [ ],
+        ns2:30.81_MT,
+        ns2:52.65_MT .
+
+ns2:Jute ns1:has_production [ ] .
+
+ns2:Jute___Mesta ns1:has_production ns2:86.24_MT ;
+    ns1:produced_in ns2:Total .
+
+ns2:Linseed ns1:has_production ns2:1.19_MT ;
+    ns1:produced_in ns2:Total .
+
+ns2:Loamy_Soil ns1:enhances ns2:Root_Growth ;
+    ns1:improves ns2:Crop_Yield ;
+    ns1:is_best_for ns2:Vegetables .
+
+ns2:Logistics_Company ns1:transports ns2:Farm_Equipment .
+
+ns2:Maize ns1:has_production [ ] .
+
+ns2:Mesta ns1:has_production [ ] .
+
+ns2:Moong ns1:has_production ns2:1.07_MT .
+
+ns2:Nigerseed ns1:produced_in ns2:Kharif .
+
+ns2:Nutri_Coarse_Cereals ns1:has_production [ ns2:season "Rabi" ],
+        [ ],
+        ns2:174.65_MT ;
+    ns1:produced_in ns2:Total .
+
+ns2:Organic_Certification ns1:ensures ns2:Quality_Standards .
+
+ns2:Organic_Farming ns1:reduces ns2:Chemical_Use .
+
+ns2:Organic_Fertilizer ns1:improves ns2:Soil_Nutrients .
+
+ns2:Other_Pulses ns1:has_production [ ] .
+
+ns2:Peat_Soil ns1:enhances ns2:Soil_Carbon_Content .
+
+ns2:Ragi ns1:produced_in ns2:Kharif,
+        ns2:Total .
+
+ns2:Rainfall ns1:impacts ns2:Soil_Moisture .
+
+ns2:Rapeseed___Mustard ns1:has_production [ ] .
+
+ns2:Retailer ns1:sells ns2:Grains .
+
+ns2:Rice ns1:is_exported_to ns2:Asia ;
+    ns1:is_sold_in ns2:Retail_Market ;
+    ns1:requires ns2:Flood_Management .
+
+ns2:Safflower ns1:produced_in ns2:Rabi .
+
+ns2:Sandy_Soil ns1:requires ns2:Frequent_Watering .
+
+ns2:Seeder ns1:plants ns2:Grains_Quickly .
+
+ns2:Sesamum ns1:has_production [ ],
+        ns2:4.36_MT .
+
+ns2:Shree_Anna__Nutri_Cereals ns1:has_production ns2:30.81_MT .
+
+ns2:Small_Millets ns1:produced_in ns2:Kharif .
+
+ns2:Smart_Irrigation ns1:conserves ns2:Water_Resources .
+
+ns2:Soil_Conservation ns1:prevents ns2:Erosion .
+
+ns2:Soybean ns1:has_production [ ns2:season "Kharif" ],
+        [ ] .
+
+ns2:Subsidy ns1:aids ns2:Small_Farmers .
+
+ns2:Sugarcane ns1:is_harvested_with ns2:Harvester .
+
+ns2:Sunflower ns1:has_production ns2:0.83_MT .
+
+ns2:Temperature ns1:affects ns2:Growing_Season .
+
+ns2:Total_Food_Grains ns1:has_production [ ] ;
+    ns1:produced_in ns2:Kharif,
+        ns2:Rabi .
+
+ns2:Total_Oil_Seeds ns1:has_production [ ] .
+
+ns2:Total_Pulses ns1:has_production [ ],
+        [ ns2:season "Total" ] ;
+    ns1:produced_in ns2:Rabi .
+
+ns2:Tur ns1:has_production [ ns2:production "35.11" ],
+        [ ] ;
+    ns1:produced_in ns2:Total .
+
+ns2:Urad ns1:has_production [ ],
+        ns2:17.99_MT ;
+    ns1:produced_in ns2:Total .
+
+ns2:Warehouse ns1:stores ns2:Fresh_Produce,
+        ns2:Grain_Stock .
+
+ns2:Weather_Data ns1:supports ns2:Crop_Planning .
+
+ns2:Wheat ns1:is_traded_by ns2:Exporter .
+
+ns2:Wholesaler ns1:buys_in_bulk ns2:Grains .
+
+ns2:Wind_Erosion ns1:reduces ns2:Soil_Fertility .
+
+ns2:Agri_Research ns1:develops ns2:Drought_Resistant_Crops,
+        ns2:Pest_Resistant_Crops .
+
+[] ns2:production "21.84" .
+
+[] ns2:production "94.9" .
+
+[] ns2:season "Kharif" .
+
+[] ns2:production "137.52" .
+
+[] ns2:season "Rabi" .
+
+[] ns2:production "1.07" .
+
+[] ns2:season "Total" .
+
+[] ns2:season "Rabi" .
+
+[] ns2:season "Total" .
+
+[] ns2:production "15.88" .
+
+[] ns2:production "4.36" .
+
+[] ns2:season "Total" .
+
+[] ns2:production "1.47" .
+
+[] ns2:production "1.19" .
+
+[] ns2:production "0.47" .
+
+[] ns2:production "416.69" .
+
+[] ns2:production "4350.79" .
+
+[] ns2:season "Kharif" .
+
+[] ns2:production "19.46" .
+
